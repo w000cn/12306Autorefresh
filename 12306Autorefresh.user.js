@@ -25,10 +25,10 @@
 // ==UserScript==  
 // @name         12306 Auto refresh  
 // @author       w000.cn@gmail.com
-// @namespace    https://plus.google.com/107416899831145722597  
+// @namespace    https://github.com/w000cn/12306Autorefresh
 // @description  A javascript snippet to help you auto login 12306.com
 // @include      *://dynamic.12306.cn/otsweb/*
-// @require	https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
+// @require	 https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
 // ==/UserScript== 
 function withjQuery(callback, safe){
 	if(typeof(jQuery) == "undefined") {
