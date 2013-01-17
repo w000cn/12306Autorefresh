@@ -61,7 +61,7 @@ function withjQuery(callback, safe){
 
 withjQuery(function($){
 	//alert(document.body.innerHTML);
-    if (document.body.innerHTML.indexOf("Access Denied") > -1)
+    if (document.body.innerHTML.indexOf("Access Denied") > -1 || document.body.innerHTML.indexOf("cache.51cdn.com") > -1)
     {
         setTimeout(location.reload(),2000);
     }
